@@ -1,0 +1,90 @@
+body {
+
+	background-image: url(https://www.rappler.com/tachyon/2022/07/boracay.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	backround background-attachment: fixed;
+}
+
+.content { 
+	display: flex;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  gap: 25px 25px;
+  grid-auto-flow: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+	column-gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+.places {
+
+	height: 200px;
+  width: 300px;
+  row-gap: 30px;
+  border: 1px solid black;
+	text-align: center;
+ 	padding-top: 80px;
+ 	margin-top: 200px;
+	padding-bottom: 250px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: rgba(255, 255, 255, 255);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.header {
+
+	text-align: center;
+	font-size: 100;
+	text-decoration: underline;
+	text-align: center;
+  padding: 55px;
+  letter-spacing: 5px;
+  background: rgba(255, 255, 255, 255);
+  font-family: Times New Roman, courier, serif;
+	text-shadow: -3px 2px 0px rgba(255, 255, 255, 255);
+
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(255, 255, 255, 255);
+    font-family: Times New Roman, courier, serif;
+
+
+}
+
+.description {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	align-content: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-items: center;
+
+}
+
+.desc {
+  	border: 1px solid black;		
+  	padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: rgba(255, 255, 255, 255);
+    font-family: Times New Roman, courier, serif;
+
+
+}
